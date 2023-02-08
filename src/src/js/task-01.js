@@ -8,7 +8,7 @@ let categories = document.querySelectorAll(".item");
 // Виведення кількості категорій в консоль через .length
 console.log(`Number of categories: ${categories.length} `);
 
-// Перебирання кожного елемента/дитини з .item
+// Перебирання кожного елемента з .item
 categories.forEach((item) => {
   // Виведення тексту із кожного заголовку
   console.log(`Category: ${item.firstElementChild.textContent}`);
