@@ -1,6 +1,3 @@
-function getRandomHexColor() {
-  return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
-}
 // Пошук елементів
 const inputNumber = document.querySelector("#controls>input");
 const createButton = document.querySelector("button[data-create]");
